@@ -1,0 +1,57 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  background: url(header.jpg) no-repeat center center fixed; /*it stretches of fill the whole page with the image*/
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1 {
+	font-size: 3rem;
+	color: #e2dbdb;
+}
+
+hr {
+	border-color: #F05F44;
+	border-image-width: 3px;
+/* tells us exactly what the max width of this thing*/
+	max-width: 65px;
+
+}
+
+.buffer {
+	height: 10rem;
+
+}
+
+.btn {
+	font-weight: 700;
+	border-radius: 300px;
+	text-transform: uppercase;
+}
+
+/*adding to our bootstrap (default) button*/
+/*ito kasing btn-primary kinopy lang natin sa bootstrap, since di tayo satisfied or gusto pa nating 
+i-customize, kailangan nating dagdagan ito siya sa HTML: <button type="button" class="btn btn-primary btn-xl"> Find out more </button>*/
+
+.btn-primary {
+	background-color: #F05F44;
+/*nilagyan natin ng border color same ng background color ng button kasi kung mapapansin mo, meron siyang border na blue which is default ng bootstrap
+so para maging ka-kulay yung border ng background natin lagyan natin n g border at i-set natin sa same color ng BG natin*/
+	border-color: #F05F44;
+
+}
+/*ngayon, sa tuwing nag ho-hover tayo, yung default na blue ang lumabas, at kung di mo gusto yun gaya ko, lagyan natin ng hover at i-set natin sa gusto nating kulay*/
+.btn-primary:hover {
+	background-color: #ee4b08;
+	border-color: #ee4b08;
+}
+
+.btn-xl {
+
+
+}
